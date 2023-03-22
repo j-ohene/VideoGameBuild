@@ -81,9 +81,9 @@ article p {
 
 .sprite {
   width: 150px;
-  height: 150px;
+  height: 110px;
   
-  background-image: url('../images/marvelSprites.jpg');
+  background-image: url('../images/mariokart-6-sprite.jpg');
 }
 
 #carol { background-position: -150px 0; }
@@ -92,7 +92,7 @@ article p {
 #thor { background-position: -600px 0; }
 #widow { background-position: -750px 0; }
 
-.sprite:hover { background-position-y: -150px !important; }
+.sprite:hover { background-position-y: -110px !important; }
 
 /* footer rules here */
 footer {
