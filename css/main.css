@@ -120,7 +120,6 @@ footer {
   left: 0;
 
   background-color: rgba(0, 0, 0, 0.85);
-  background-image: url('../images/Mario.png');
   background-repeat: no-repeat;
 
   background-size: 55vh; /* 55% of the viewport height */
@@ -128,22 +127,15 @@ footer {
 
   display: none;
 }
+#lightbox{
+  background-image: url('../images/Mario.png');
+}
 #lightbox2 {
-  width: 100vw; /* vw = viewport width => screen width */
-  height: 100vh; /* vh = viewport height => screen height */
 
-  position: absolute;
-  top: 0;
-  left: 0;
-
-  background-color: rgba(0, 0, 0, 0.85);
   background-image:url('../images/luigi.png');
-  background-repeat: no-repeat;
-
-  background-size: 55vh; /* 55% of the viewport height */
-  background-position: 40px bottom;
-
-  display: none;
+}
+#lightbox3 {
+  background-image: url('../images/baby-peach.png');
 }
 
 .lightbox_close {
