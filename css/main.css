@@ -86,11 +86,11 @@ article p {
   background-image: url('../images/mariokart-6-sprite.jpg');
 }
 
-#carol { background-position: -150px 0; }
-#clint { background-position: -300px 0; }
-#hulk { background-position: -450px 0; }
-#thor { background-position: -600px 0; }
-#widow { background-position: -750px 0; }
+#luigi { background-position: -150px 0; }
+#peach { background-position: -300px 0; }
+#daisy { background-position: -450px 0; }
+#toad { background-position: -600px 0; }
+#toadette { background-position: -750px 0; }
 
 .sprite:hover { background-position-y: -110px !important; }
 
@@ -120,7 +120,7 @@ footer {
   left: 0;
 
   background-color: rgba(0, 0, 0, 0.85);
-  background-image: url('../images/Cap_LB_Bg.png');
+  background-image: url('../images/Mario.png');
   background-repeat: no-repeat;
 
   background-size: 55vh; /* 55% of the viewport height */
@@ -128,8 +128,9 @@ footer {
 
   display: none;
 }
-
-#lightbox2 { background-image: url('../images/Thor_LB_Bg.png'); }
+#lightbox2{
+  background-image:url('../images/luigi.png');
+}
 
 .lightbox_close {
   position: relative;
