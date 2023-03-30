@@ -147,7 +147,9 @@ footer {
   background-size: 65vh; 
   background-position: 60px top;
 }
-#lightbox4{}
+#lightbox4{
+  background-image:url('../images/');
+}
 #lightbox5{}
 #lightbox6{}
 
