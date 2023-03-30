@@ -43,7 +43,7 @@ header {
 
   background-color: black;
 
-  text-align: left;
+  text-align: center;
 
   cursor: pointer;
 }
@@ -55,9 +55,11 @@ header {
 
 .characters li a { text-decoration: none; }
 
-.red_bumper {
+
+
+.mint_bumper {
   width: 100%;
-  height: 6px;
+  height: 10px;
   background-color: rgb(140, 246, 140);
   transition: height 0.2s ease;
   position: relative;
@@ -80,7 +82,10 @@ article p {
   font-size: 1.5em;
   line-height: 1.2;
 }
-
+.li a h5 :checked::after{
+  border-color: blueviolet;
+  
+}
 .sprite {
   width: 150px;
   height: 110px;
@@ -94,7 +99,7 @@ article p {
 #toad { background-position: -600px 0; }
 #toadette { background-position: -750px 0; }
 
-.sprite:hover { background-position-y: -110px !important; }
+.sprite:hover{background-position-y: -110px !important;}
 
 /* footer rules here */
 footer {
@@ -129,6 +134,7 @@ footer {
 
   display: none;
 }
+
 #lightbox{
   background-image: url('../images/Mario.png');
 }
@@ -141,6 +147,9 @@ footer {
   background-size: 65vh; 
   background-position: 60px top;
 }
+#lightbox4{}
+#lightbox5{}
+#lightbox6{}
 
 .lightbox_close {
   position: relative;
@@ -155,7 +164,7 @@ footer {
   font-weight: bolder;
 }
 
-.lightbox_close:hover { opacity: 0.5; color: red; }
+.lightbox_close:hover{ opacity: 0.5; color: red; }
 
 .lightbox article {
   width: 55%;
