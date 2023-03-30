@@ -150,8 +150,12 @@ footer {
 #lightbox4{
   background-image:url('../images/baby-daisy.png');
 }
-#lightbox5{}
-#lightbox6{}
+#lightbox5{
+  background-image: url(../images/Toad.png);
+}
+#lightbox6{
+  background-image: url(../images/toadette.png);
+}
 
 .lightbox_close {
   position: relative;
